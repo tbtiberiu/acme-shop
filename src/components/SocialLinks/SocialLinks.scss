@@ -1,0 +1,12 @@
+@import "../../sass/variables";
+
+.socials {
+  display: flex;
+  align-items: center;
+
+  .social-link {
+    margin-left: 1.5rem;
+    padding: 0.25rem;
+    color: $textLightColor;
+  }
+}

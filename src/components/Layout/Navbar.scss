@@ -1,0 +1,36 @@
+@import "../../sass/variables";
+
+.navbar {
+  background-color: $primaryColor;
+  color: $textLightColor;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &-links {
+    display: flex;
+    align-items: center;
+
+    .navbar-link {
+      margin-left: 2rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 0.25rem;
+      color: $textLightColor;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background-color 0.2s ease-in-out;
+
+      &:hover {
+        background-color: $textDarkerColor;
+      }
+    }
+  }
+}

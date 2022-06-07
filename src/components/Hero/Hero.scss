@@ -1,0 +1,49 @@
+@import "../../sass/variables";
+
+.hero {
+  background-image: linear-gradient(
+      360deg,
+      $textDarkerColor,
+      rgba(34, 34, 34, 0)
+    ),
+    url("../../images/hero.jpg");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  color: $textLightColor;
+  min-height: 550px;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 550px;
+    max-width: 400px;
+  }
+
+  &-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &-text {
+    font-size: 1.2rem;
+  }
+
+  &-button {
+    margin-top: 2rem;
+    padding: 0.6rem 1.3rem;
+    border: 1px solid $textLightColor;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: $textLightColor;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $textLightColor;
+      color: $textDarkerColor;
+    }
+  }
+}

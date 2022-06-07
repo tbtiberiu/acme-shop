@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Sen Regular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Sen Regular";
+  src: local("Sen Regular"), url(./fonts/Sen-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sen Bold";
+  src: local("Sen Bold"), url(./fonts/Sen-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Sen ExtraBold";
+  src: local("Sen ExtraBold"), url(./fonts/Sen-ExtraBold.ttf) format("truetype");
+}
