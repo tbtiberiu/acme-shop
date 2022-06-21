@@ -1,0 +1,47 @@
+@import "../../sass/variables";
+
+.shop-local {
+  padding-top: 65px;
+  padding-bottom: 65px;
+
+  &-content {
+    position: relative;
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+
+    &-wrapper {
+      padding: 0 145px;
+      width: 80%;
+
+      h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+
+  &-left {
+    position: absolute;
+    background-image: url("../../images/shop-local.jpg");
+    background-position: 69% 80%;
+    background-size: 270%;
+    min-height: 440px;
+    width: 30%;
+    border-radius: 5px;
+    top: 10%;
+    left: 0;
+  }
+
+  &-right {
+    padding: 45px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $textDarkerColor;
+    color: $textLightColor;
+    border-radius: 5px;
+  }
+}

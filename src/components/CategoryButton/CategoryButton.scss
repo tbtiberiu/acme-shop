@@ -1,0 +1,27 @@
+@import "../../sass/variables";
+
+.category-button {
+  cursor: pointer;
+  background-color: $textLightColor;
+  border: 1px solid $textDarkerColor;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px 25px;
+  margin-bottom: 0.8rem;
+  min-width: 200px;
+  border-radius: 5px;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  color: $textDarkerColor;
+
+  &:hover {
+    background-color: $textDarkerColor;
+    color: $textLightColor;
+  }
+}
+
+.active {
+  background-color: $textDarkerColor;
+  color: $textLightColor;
+}

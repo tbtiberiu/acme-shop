@@ -1,0 +1,58 @@
+@import "../../sass/variables";
+
+.card {
+  text-align: center;
+
+  &-image {
+    position: relative;
+
+    > img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    &-sale {
+      position: absolute;
+      color: $textLightColor;
+      background-color: $primaryColor;
+      border-radius: 5px;
+      padding: 0.4rem 1rem;
+      font-size: 0.9rem;
+      top: 0.8rem;
+      right: 1rem;
+    }
+  }
+
+  &-info {
+    > h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 0;
+      margin-top: 1rem;
+    }
+
+    > p {
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin: 0.5rem 0 1rem 0;
+    }
+
+    &-sale {
+      text-decoration: line-through;
+      color: $primaryColor;
+    }
+  }
+
+  &-button {
+    cursor: pointer;
+    color: $textLightColor;
+    font-weight: bold;
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    border-radius: 5px;
+    padding: 0.5rem 1.3rem;
+    font-size: 1rem;
+  }
+}

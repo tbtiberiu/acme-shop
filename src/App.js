@@ -21,7 +21,7 @@ const App = () => {
           }
         />
         <Route
-          path="/shop"
+          path="/shop/*"
           element={
             <Layout>
               <Shop />

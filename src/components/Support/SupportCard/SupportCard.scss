@@ -1,0 +1,30 @@
+.support-card {
+  width: 340px;
+
+  &-item {
+    width: 350px;
+    height: 350px;
+    background-color: #222222;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 40px;
+
+    .support-index {
+      position: absolute;
+      top: 50px;
+      left: -40px;
+    }
+
+    div {
+      width: 200px;
+      text-align: center;
+    }
+  }
+}
