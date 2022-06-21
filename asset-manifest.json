@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acme-shop/static/css/main.0dd19f97.css",
-    "main.js": "/acme-shop/static/js/main.5c0c864b.js",
+    "main.js": "/acme-shop/static/js/main.dde23755.js",
     "static/js/787.093c7264.chunk.js": "/acme-shop/static/js/787.093c7264.chunk.js",
     "static/media/hero.jpg": "/acme-shop/static/media/hero.7caf7e2c72e02236519a.jpg",
     "static/media/safe-section.jpg": "/acme-shop/static/media/safe-section.56356bdefa26ea0dfce6.jpg",
@@ -16,11 +16,11 @@
     "index.html": "/acme-shop/index.html",
     "static/media/FacebookIcon.svg": "/acme-shop/static/media/FacebookIcon.b964b15e7e8b20376eda88bf2e008627.svg",
     "main.0dd19f97.css.map": "/acme-shop/static/css/main.0dd19f97.css.map",
-    "main.5c0c864b.js.map": "/acme-shop/static/js/main.5c0c864b.js.map",
+    "main.dde23755.js.map": "/acme-shop/static/js/main.dde23755.js.map",
     "787.093c7264.chunk.js.map": "/acme-shop/static/js/787.093c7264.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dd19f97.css",
-    "static/js/main.5c0c864b.js"
+    "static/js/main.dde23755.js"
   ]
 }
