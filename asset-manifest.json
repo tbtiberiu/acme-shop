@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/acme-shop/static/css/main.0dd19f97.css",
+    "main.js": "/acme-shop/static/js/main.5c0c864b.js",
+    "static/js/787.093c7264.chunk.js": "/acme-shop/static/js/787.093c7264.chunk.js",
+    "static/media/hero.jpg": "/acme-shop/static/media/hero.7caf7e2c72e02236519a.jpg",
+    "static/media/safe-section.jpg": "/acme-shop/static/media/safe-section.56356bdefa26ea0dfce6.jpg",
+    "static/media/shop-local.jpg": "/acme-shop/static/media/shop-local.144b297d457cf3b8b3c8.jpg",
+    "static/media/Sen-Bold.ttf": "/acme-shop/static/media/Sen-Bold.da94f104562e9265468d.ttf",
+    "static/media/Sen-ExtraBold.ttf": "/acme-shop/static/media/Sen-ExtraBold.6452989bbb3da7b578ff.ttf",
+    "static/media/Sen-Regular.ttf": "/acme-shop/static/media/Sen-Regular.b4bcdfa9125d1221a0e3.ttf",
+    "static/media/logo.svg": "/acme-shop/static/media/logo.8df5e5d1abbe0152ebfb72b285caf404.svg",
+    "static/media/InstagramIcon.svg": "/acme-shop/static/media/InstagramIcon.3fe2e5d72ce9ef8639c9b2aad4648af5.svg",
+    "static/media/TwitterIcon.svg": "/acme-shop/static/media/TwitterIcon.59304809b161d20ece4a7990431aef8b.svg",
+    "static/media/danger.svg": "/acme-shop/static/media/danger.89af592e3b031ca6b5e330e616852fb7.svg",
+    "index.html": "/acme-shop/index.html",
+    "static/media/FacebookIcon.svg": "/acme-shop/static/media/FacebookIcon.b964b15e7e8b20376eda88bf2e008627.svg",
+    "main.0dd19f97.css.map": "/acme-shop/static/css/main.0dd19f97.css.map",
+    "main.5c0c864b.js.map": "/acme-shop/static/js/main.5c0c864b.js.map",
+    "787.093c7264.chunk.js.map": "/acme-shop/static/js/787.093c7264.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd19f97.css",
+    "static/js/main.5c0c864b.js"
+  ]
+}
