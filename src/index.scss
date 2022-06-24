@@ -25,14 +25,17 @@ code {
 @font-face {
   font-family: "Sen Regular";
   src: local("Sen Regular"), url(./fonts/Sen-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Sen Bold";
   src: local("Sen Bold"), url(./fonts/Sen-Bold.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Sen ExtraBold";
   src: local("Sen ExtraBold"), url(./fonts/Sen-ExtraBold.ttf) format("truetype");
+  font-display: swap;
 }

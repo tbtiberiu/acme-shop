@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getProducts } from "../../app/productsSlice";
+import { useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 
 import CategoryButton from "../CategoryButton/CategoryButton";
@@ -9,12 +8,7 @@ import Card from "../Card/Card";
 import "./Shop.scss";
 
 const Shop = () => {
-  const dispatch = useDispatch();
   const { data, loading } = useSelector((state) => state.products);
-
-  useEffect(() => {
-    dispatch(getProducts());
-  }, [dispatch]);
 
   useEffect(() => {
     document.title = "Shop";

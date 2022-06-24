@@ -1,18 +1,12 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getProducts } from "../../app/productsSlice";
+import React from "react";
+import { useSelector } from "react-redux";
 
 import Card from "../Card/Card";
 
 import "./Products.scss";
 
 const Products = () => {
-  const dispatch = useDispatch();
   const { data, loading } = useSelector((state) => state.products);
-
-  useEffect(() => {
-    dispatch(getProducts());
-  }, [dispatch]);
 
   return (
     <div className="container">

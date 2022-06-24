@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { getProducts } from "./app/productsSlice";
 
 import "./App.scss";
 
@@ -9,6 +11,12 @@ import NotFound from "./components/Pages/NotFound";
 import Layout from "./components/Layout/Layout";
 
 const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getProducts());
+  }, [dispatch]);
+
   return (
     <div className="App">
       <Routes>
