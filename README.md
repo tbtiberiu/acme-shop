@@ -3,7 +3,7 @@
 
 This repository contains the source code for a dynamic e-commerce website created using ReactJS and Redux. The website design was inspired by [Webflow's Biznus Template](https://biznus-template.webflow.io/).
 
-View demo: [Acme Demo](tbtiberiu.github.io/acme-shop/)
+View demo: [Acme Demo](https://tbtiberiu.github.io/acme-shop/)
 
 ## Features
 
